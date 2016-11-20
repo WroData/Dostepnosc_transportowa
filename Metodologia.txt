@@ -1,0 +1,8 @@
+Krótki opis metodologii
+
+1. wylosowano 200 000 punktów w prostok¹cie wyznaczonym przez maksymalne wspó³rzedne geograficzne Wroc³awia
+2. Sprawdzono które s¹ na terenie Wroc³awia (oko³o 120 000 punktów)
+3. Od ka¿dego punktu obliczono odleg³oœæ do ka¿dego przystanku we Wroc³awiu (w metrach, na podstawie odleg³oœci po wielkim kole - https://pl.wikipedia.org/wiki/Ko%C5%82o_wielkie)
+4. Dla ka¿dego punktu przypisano (na podstawie 579 rejonów statytycznych) gêstoœæ zaludnienie w tym punkcie.
+5. Przyjêto, ¿e ka¿dy punkt reprezentuje porównywaln¹ powierzchniê i na podstawie Wielkoœci Wroc³awia uznano ¿e ka¿dy reprezentuje 0.004830447 km2 (powierzchnia wroc³awia: 292.8072km2)
+6. Na podstwie przypisanej punktowi gêstoœci zaludnienia i powierzchni przypinano mu liczbê mieszkañców jak¹ reprezentuje
